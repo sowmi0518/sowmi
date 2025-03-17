@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main-con{
+    max-width: 100%;
+    height: 2100px;
+    background-color: rgb(200, 240, 236);
+    margin: auto;
+}
+header{
+    background-color: rgb(149, 189, 216);
+}
+header h1{
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
+.row{
+    max-width: 80%;
+    height: 600px;
+    background-color: rgb(218, 155, 38);
+}
+.left{
+    width: 40%;
+    height: 400px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 50px;
+    
+}
+.right{
+    width: 40%;
+    height: 400px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.left img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.right h1{
+    text-align: left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    padding: 20px 0;
+}
+.right p{
+    text-align: left;
+    padding: 20px 15px;
+    line-height: 1.5em;
+    
+}
+.row3{
+    
+    max-width: 100%;
+}
+.image{
+    
+    float: left;
+    margin: 100px 0;
+    margin-left: 30px;
+    
+}
+.image img{
+    border-radius: 15px;
+}
+.row3 h1{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 50px;
+}
+.row3 .para{
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 18px;
+}
+.bg-image{
+    margin: auto;
+    width: 70%;
+    height: 300px;
+    background-image: url('image/day7-1.jpg');
+    background-position: center;
+        background-repeat: no-repeat;
+    
+        background-size: cover;
+        border-radius: 5px;
+        
+}
+.bg-image h1{
+    background-color: white;
+    text-align: center;
+    /* height: 150px; */
+    
+    padding-top:20px ;
+    
+    
+
+    opacity: 0.4;    
+}
+.bg-image div{
+    margin: auto;
+    padding: 100px;
+}
